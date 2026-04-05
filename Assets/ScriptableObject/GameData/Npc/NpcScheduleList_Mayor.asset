@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b766204b29ab57841a2274f35e1b6c7a, type: 3}
+  m_Name: NpcScheduleList_Mayor
+  m_EditorClassIdentifier: 
+  ScheduleList:
+  - day: 1
+    hour: 8
+    minute: 0
+    priority: 0
+    targetScene: 3
+    targetGridPosition: {x: -12, y: 5}
+    animAtStop: {fileID: 7400000, guid: db32c3897ab64466f86a8993b8e48f9e, type: 2}
+    isInteractable: 0
+  - day: 1
+    hour: 9
+    minute: 0
+    priority: 0
+    targetScene: 2
+    targetGridPosition: {x: -12, y: 6}
+    animAtStop: {fileID: 7400000, guid: 54d560542c0284c169c56cddc7145ac6, type: 2}
+    isInteractable: 0

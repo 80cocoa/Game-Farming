@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f600539ce3a044fa7d02ba771fc224, type: 3}
+  m_Name: SceneRouteDataList
+  m_EditorClassIdentifier: 
+  routes:
+  - fromScene: 2
+    toScene: 3
+    paths:
+    - sceneName: 3
+      fromGridCoordinates: {x: -12, y: 1}
+      toGridCoordinates: {x: 9999, y: 9999}
+    - sceneName: 2
+      fromGridCoordinates: {x: 9999, y: 9999}
+      toGridCoordinates: {x: -1, y: 8}
+  - fromScene: 3
+    toScene: 2
+    paths:
+    - sceneName: 2
+      fromGridCoordinates: {x: -1, y: 8}
+      toGridCoordinates: {x: 9999, y: 9999}
+    - sceneName: 3
+      fromGridCoordinates: {x: 9999, y: 9999}
+      toGridCoordinates: {x: -12, y: 1}
